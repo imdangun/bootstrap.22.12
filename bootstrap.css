@@ -1981,7 +1981,7 @@ progress {
 
 .table-active {
   --bs-table-accent-bg: var(--bs-table-active-bg);
-  color: var(--bs-table-active-color);
+  color: var()--bs-table-active-color;
 }
 
 .table-hover > tbody > tr:hover {
@@ -6357,7 +6357,7 @@ textarea.form-control-lg {
 }
 
 .d-flex {
-  display: flex !important;
+   display: flex!important;
 }
 
 .d-inline-flex {
